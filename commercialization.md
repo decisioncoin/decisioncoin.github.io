@@ -13,8 +13,12 @@ Creating a healthy decisioning marketplace is critical. The marketplace needs to
 3) The market steadily gets smarter
 
 Ideas:
--Each problem category accumulates a bounty based on its usage, payable to the
+-Each problem category accumulates a bounty based on its usage. This is presumably a fee integrated into pricing model. 
 -Sponsors place bids based on the economic value of improvements, not just model execution.
 -One potential problem with second price auction is lack of scarcity. Maybe
 -Fees are reduced if you provide feedback (additional training & test data)
 
+## How we make money
+
+Take a fee (10%?) oon each transaction
+-Need to understand market norms.

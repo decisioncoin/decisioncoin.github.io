@@ -29,13 +29,12 @@ Support open neural network standard?
 -Cheaters. This can
 
 
-
 ## Things we need to solve / evaluate
-1 - Allow a provider of compute resources to execute models withouth getting access to the underlying model (homomorphic encryption?)
-2 - Encrypt a data set so that a data scientist can work on a solution withouth sharing the data publicly
-3 - Very large data sets
-4 - Very fast execution (e.g. real-time bidding) 
-5 - How to trickle payment over time to share rish
+1. Allow a provider of compute resources to execute models withouth getting access to the underlying model (homomorphic encryption?)
+2. Encrypt a data set so that a data scientist can work on a solution withouth sharing the data publicly
+3. Very large data sets
+4. Very fast execution (e.g. real-time bidding) 
+5. How to trickle payment over time to share rish
 
 
 TODO: Convert these to github issues in core repo.

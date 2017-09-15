@@ -23,12 +23,10 @@ Budget allocation(58% team, 10% admin, 12% marketing, 13% contractors, 7% contin
 KIK
 $50 million pre-sale @ 30% discount, $75 million public coin offering
 
+### Links
+* [Argon Group - how to stage an ICO](https://techcrunch.com/2017/05/24/how-to-stage-an-ico-and-other-related-questions-you-might-like-answered/)
+* [Ad tech ICO - Wolktoken](https://www.wolk.com/app/wolktoken)
+* [POV on ICO “advisors”](https://twitter.com/NTmoney/status/865190655382794244)
+* [Law](https://www.coinbase.com/legal/securities-law-framework.pdf)
 
-Distribution 
-
-Ad tech ICO
-https://www.wolk.com/app/wolktoken
-
-POV on ICO “advisors”: 
-
-https://twitter.com/NTmoney/status/865190655382794244
+* [What I look for in Cryptocoins](https://jordancooper.blog/2017/05/23/what-i-look-for-in-cryptocoins/)
