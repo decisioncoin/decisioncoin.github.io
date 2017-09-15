@@ -1,20 +1,20 @@
 # DecisionCoin is a decentralized network for making better decisions. 
 
-Data scientists mine DecisionCoin by building *better predictive models*. 
+Data scientists mine DecisionCoin by building better predictive models. 
 
-Miners with available compute resources mine DecisionCoin by *evaluating models in real-time*.
+Miners with available compute resources mine DecisionCoin by evaluating models in real-time.
 
-Sponsors pay DecisionCoin to *deliver better models and evaluate their models in real-time*.
+Businesses pay DecisionCoin to deliver better models and evaluate their models in real-time.
 
 
-## Advantages for sponsors:
+## Advantages for businesses:
 * Continuously improving models that tap into the worldwide community of data scientists.
 * One-time implementation. There is no friction between model build, evaluation, and deployment
 * Decentralized market that ensures pricing is fair and reflects business value.
-* End-to-end encryption to ensure commercial security
+* End-to-end encryption to ensure commercial data stays safe
 
 ## Advantages for data scientists:
-* Get paid for their model building 
+* Get paid for building performant models 
 * Continue to get paid as long as their models are used
 * Access to a licensing channel that rewards model performance over sales skills
 
@@ -27,6 +27,7 @@ Algorithmic decisioning (or the more buzzy "machine learning") is huge and will 
 * Marketers want to estimate the likelihood a user will click on an ad
 * Radiologists want to identify a tumor in a lung CT-scan
 * Realtors want to predict home sale values
+* Subscription services want to predict which of their subscribers are at risk of churning
 * Web publishers want to forecast web traffic to accurately assess demand
 * and on and on. 
 
