@@ -48,14 +48,8 @@ DecisionCoin solves these problems through a consensus blockchain that maintains
 ## [Twitter list(from John Ryu)](twitter_list)
 
 ### Links
-
-* [Crowd-sourced Ethereum reading] (https://github.com/Scanate/EthList/blob/master/README.md)
-
-https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238
-
-Free pre-pub draft of Bitcoin text book:
-https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf
-
-
-https://medium.com/@wmougayar/icos-are-like-startups-but-advisors-are-not-like-mentors-d7ec71923b92
+* [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
+* [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
+* [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
+* [Advisors are not like mentors](https://medium.com/@wmougayar/icos-are-like-startups-but-advisors-are-not-like-mentors-d7ec71923b92)
 
