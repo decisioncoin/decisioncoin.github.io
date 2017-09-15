@@ -7,15 +7,15 @@ Miners with available compute resources mine DecisionCoin by *evaluating models 
 Sponsors pay DecisionCoin to *deliver better models and evaluate their models in real-time*.
 
 
-## DecisionCoin provides several advantages for sponsors:
+## Advantages for sponsors:
 * Continuously improving models that tap into the worldwide community of data scientists.
 * One-time implementation. There is no friction between model build, evaluation, and deployment
 * Decentralized market that ensures pricing is fair and reflects business value.
-* End-to-end encryption to ensure 
+* End-to-end encryption to ensure commercial security
 
-## Data scientists also see several advantages:
+## Advantages for data scientists:
 * Get paid for their model building 
-* Continue to get paid as long as their modela are used
+* Continue to get paid as long as their models are used
 * Access to a licensing channel that rewards model performance over sales skills
 
 
@@ -35,7 +35,7 @@ All of these categories support robust commercial solutions, but suffer from the
 2. Testing the efficacy of a new solution against the status quo takes time, effort and expertise
 3. Implementing a new solution in a production environment is difficult and time-consuming. 
  
-DecisionCoin solves these problems through a consensus blockchain that maintains a record of the best[1](#1) solution for a variety of problems and a standardized API that makes it easy to run the most effective model in production at all times.   
+DecisionCoin solves these problems through a consensus blockchain that maintains a record of the best[1][] solution for a variety of problems and a standardized API that makes it easy to run the most effective model in production at all times.   
 
 [1]: Note that the best solution is often the most accurate, but may also include other considerations like cost, absence of false positives/negates, etc.  
 

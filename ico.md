@@ -1,16 +1,16 @@
 # Initial coin offering
 Initial coin offerings present an attractive way to finance the development of the company and have attracted signficant attention. 
 
-###Key Questions:
+### Key Questions:
 * At what point this is viable
-* Best practices re: accredidation / securities reg. 
+* Best practices re: accreditation / securities reg. 
 * How to allocate coins
 * How to stage fundraising (Pre-sale, public) How much of total to make available?
 
 [Safe ICO practices] (https://medium.com/@wmougayar/safe-ico-practices-sip-c77a0c28f5d6)
-[Argon Group pitch]()
-[Pantera ICO fund deck]()
-[Coinbase State of Blockchain]()
+[Argon Group pitch](./research/Argon 2017-07 ICO Considerations.pdf/)
+[Pantera ICO fund deck](./research/Pantera ICO Fund Presentation.pdf)
+[Coinbase State of Blockchain](./research/State-of-Blockchain-Q2-2017-.pdf)
 
 Examples:
 -Cloud computing / Computation markets (Golem, iExec, Truebit)
