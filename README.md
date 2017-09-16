@@ -2,7 +2,7 @@
 
 Businesses pay DecisionCoin to deliver better models and evaluate their models in real-time.
 
-Data scientists mine DecisionCoin by building better predictive models. 
+Data scientists earn DecisionCoin by building better predictive models. 
 
 Miners with available compute resources mine DecisionCoin by evaluating models in real-time.
 
@@ -18,6 +18,7 @@ Miners with available compute resources mine DecisionCoin by evaluating models i
 * Access to a licensing channel that rewards model performance over sales skills
 * Continue to get paid as long as their models are used
 
+[An Example: Lending](/example/)
 
 ## The Market
 
@@ -31,7 +32,6 @@ Algorithmic decisioning (or the more buzzy "machine learning") is huge and will 
 * Subscription services want to predict which of their subscribers are at risk of churning
 * Web publishers want to forecast web traffic to accurately assess demand
 * Realtors want to predict home sale prices
-* and on and on. 
 
 Commercial solutions exist in each category but they suffer from the same problem: it's difficult to determine which solution provides the best[1] solution. This is true for a couple of reasons:
 1. Bad software sometimes has great salespeople, and vice-versa.
@@ -51,6 +51,10 @@ There is a large community of data scientists interested in solving hard problem
 
 Numerai reports that 20,000+ data scientists that have participated in their crowd-sourced stock market predictions. 
 
+### Distributed Data sets
+Decisioning algorithms need training data to succeed. Data creates 
+
+We will dedicate a material potion of DecisionCoin to rewarding data set owners for contributing their data. 
 
 ## [Technical development](/technical/)
 ## [Token](/token/)
@@ -62,5 +66,4 @@ Numerai reports that 20,000+ data scientists that have participated in their cro
 * [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
 * [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
 * [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
-* [Advisors are not like mentors](https://medium.com/@wmougayar/icos-are-like-startups-but-advisors-are-not-like-mentors-d7ec71923b92)
 

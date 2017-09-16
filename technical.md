@@ -7,7 +7,6 @@
 ## Define & develop smart contract(s)
 - Need to figure out best practices here
 
- 
 ## Data sets
 
 For each domain:
@@ -27,6 +26,7 @@ For each domain:
 2 API gateway created
 3 Handle authentication / tokenization & how it interacts with blockchaim
 
+* Outside AWS distribution: create a docker image that can execute model
 
 ## Problems
 - Overfitting
