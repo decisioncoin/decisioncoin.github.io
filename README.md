@@ -1,37 +1,39 @@
 # DecisionCoin is a decentralized network for making better decisions. 
 
+Businesses pay DecisionCoin to deliver better models and evaluate their models in real-time.
+
 Data scientists mine DecisionCoin by building better predictive models. 
 
 Miners with available compute resources mine DecisionCoin by evaluating models in real-time.
 
-Businesses pay DecisionCoin to deliver better models and evaluate their models in real-time.
-
-
 ## Advantages for businesses:
-* Continuously improving models that tap into the worldwide community of data scientists.
+* Better models from the community of data scientists 
+* Continuous improvement
 * One-time implementation. There is no friction between model build, evaluation, and deployment
 * Decentralized market that ensures pricing is fair and reflects business value.
-* End-to-end encryption to ensure commercial data stays safe
+* Encryption to ensure commercial data stays safe
 
 ## Advantages for data scientists:
 * Get paid for building performant models 
-* Continue to get paid as long as their models are used
 * Access to a licensing channel that rewards model performance over sales skills
+* Continue to get paid as long as their models are used
 
 
 ## The Market
+
+### Demand from Businesses
 Algorithmic decisioning (or the more buzzy "machine learning") is huge and will continue to grow. A few domain examples: 
  
 * Banks want to estimate the probability that a borrower will default on a loan
 * Airport security want to determine whether a passenger deserves additional screening
 * Marketers want to estimate the likelihood a user will click on an ad
 * Radiologists want to identify a tumor in a lung CT-scan
-* Realtors want to predict home sale values
 * Subscription services want to predict which of their subscribers are at risk of churning
 * Web publishers want to forecast web traffic to accurately assess demand
+* Realtors want to predict home sale prices
 * and on and on. 
 
-All of these categories support robust commercial solutions, but suffer from the same problem: it's difficult to determine which solution provides the best[1] solution. This is true for a couple of reasons:
+Commercial solutions exist in each category but they suffer from the same problem: it's difficult to determine which solution provides the best[1] solution. This is true for a couple of reasons:
 1. Bad software sometimes has great salespeople, and vice-versa.
 2. Testing the efficacy of a new solution against the status quo takes time, effort and expertise
 3. Implementing a new solution in a production environment is difficult and time-consuming. 
@@ -40,13 +42,21 @@ DecisionCoin solves these problems through a consensus blockchain that maintains
 
 [1]: Note that the best solution is often the most accurate, but may also include other considerations like cost, absence of false positives/negates, etc.  
 
+### Supply of Data scientists
+Crowdsourcing predictive modeling is a proven model. There are a wide variety of strategies that can be applied to a given data set and it's very hard to know in advance what will work best. 
+
+There is a large community of data scientists interested in solving hard problems for fun and profit. [Kaggle](https://kaggle.com) (now owned by Google) hosts competitions that pay data scientists for better models and has attracted a large audience. From [Kaggle's Wikipedia entry](https://en.wikipedia.org/wiki/Kaggle):
+ 
+> Kaggle competitions regularly attract over a thousand teams and individuals. The Kaggle community is active and committed, with 4,000 forum posts per month and over 3,500 competition submissions per day. It also includes many of the world’s best-known researchers, including members of IBM Watson’s Jeopardy-winning team and the team working on Google’s DeepMind. Many of these researchers publish papers in peer-reviewed journals based on their performance in Kaggle competitions.
+
+Numerai reports that 20,000+ data scientists that have participated in their crowd-sourced stock market predictions. 
+
 
 ## [Technical development](/technical/)
-## [Commercialization](/commercialization/)
+## [Token](/token/)
 ## [Marketing](/marketing/)
-## [ICO](/ico/)
 ## [Team](/team/)
-## [Twitter list(from John Ryu)](twitter_list)
+## [Twitter list (ht John Ryu)](twitter_list)
 
 ### Links
 * [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)

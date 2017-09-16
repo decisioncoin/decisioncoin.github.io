@@ -1,32 +1,46 @@
 # Technical development
 
 ## Token creations
--Create token (ERC20?)
--Are there other viable alternatives
+- Create token (ERC20?)
+- Any other viable alternatives?
 
 ## Define & develop smart contract(s)
--Need to figure out best practices here
+- Need to figure out best practices here
 
+ 
+## Data sets
+
+For each domain:
+- Data dictionary
+- Training data
+- Test data
+
+## Models
+- What do standardized models look like? (R, Python, et al). 
+- Are there standards for portability? 
+- Support open neural network standard? 
 
 ## Pipeline from model to API
-We should automatically create a version of each executable model on AWS. We will mark this up by 100% of the execution cost but we can use this to help others launch fast.
-Develop CloudFormation script to execute models on AWS
+- Automatically create a version of each executable model on AWS. We will mark this up by 100% of the execution cost but we can use this to help others launch fast.
+- Develop CloudFormation script to execute models on AWS
 1 Developed models transform to AWS Lambda function
 2 API gateway created
 3 Handle authentication / tokenization & how it interacts with blockchaim
 
-For each domain:
--Data dictionary
--Training data
--Test data
-
-What do standardized models look like? (R, Python, et al). 
-Are there standards for portability? 
-Support open neural network standard? 
 
 ## Problems
--Overfitting
--Cheaters. This can
+- Overfitting
+- Cheaters. This can be:
+1. A maliciously targeted algorithm that demonstrates superior performance when it shouldn't. This will self-correct, but we need to have solutions here.  
+2. Bad data. This could be accidental or malicious, but we need algorithms to detect potential cheaters and a mechanism for punishing them. 
+--- Can we reverse a transaction through consensus? Is this a bad idea? 
+
+
+## Encryption of data sets
+- [Homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) allows Fully homomorphic encryption expands data size dramatically
+-- Partial homomorphic encryption is simpler and can 
+- Numerai is using encryption using two neural nets. (One net finds features and the other attempts to decrypt the signal.)
+- Unclear that this is "truly" protected but worth investigating
 
 
 ## Things we need to solve / evaluate
