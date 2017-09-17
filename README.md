@@ -52,9 +52,11 @@ There is a large community of data scientists interested in solving hard problem
 Numerai reports that 20,000+ data scientists that have participated in their crowd-sourced stock market predictions. 
 
 ### Distributed Data sets
-Decisioning algorithms need training data to succeed. Large, clean data sets create network effects that ensure that the DecisionCoin network delivers the most highest performing algorithms and attracts the most talented data scientists.  
+Decisioning algorithms need training data to succeed. But the best data sets for training are increasingly being hoarded by the largest technology companies. The DecisionCoin network provides an attractive alternative: public data sets that are available to the community in pursuit of better results.   
 
-We will allocate DC to compensate data owners for contributing to an open data set. Data that creates the greatest performance increase will receive a larger protion of the available compensation.
+Large, clean data sets also create network effects that ensure the DecisionCoin network delivers the most highest performing algorithms and attracts the most talented data scientists.  
+
+We will compensate data owners for contributing to our open data sets, reserving a material fraction of the DecisionCoin token for these bounties. Data that creates the greatest performance increase will receive a larger protion of the available compensation.
 
 
 ### Links
