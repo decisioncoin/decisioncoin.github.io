@@ -1,8 +1,8 @@
 # An Example: Peer-to-Peer Lending
 
-Peer-to-Peer ("P2P") lending companies allow investors to purchase unsecured loans that are made to individuals. They provide data on individual borrowers and allow investors to select which loans they want to fund. If most of the individuals re-pay the loan, P2P provides an attractive return to investors. We will use the DecisionCoin network to determine which loans to fund. 
+Peer-to-Peer ("P2P") lending companies allow investors to purchase unsecured loans that are made to individuals. They provide data on individual borrowers and allow investors to select which loans they want to fund. If most of the individuals re-pay the loan, P2P provides an attractive return to investors. P2P Fund, LLC is a fund established to invest in P2P loans and they will use the DecisionCoin network to determine which loans to fund. 
 
-1. A P2P lending fund provides a historical data set of funded P2P loans and offers a 1 DC bounty for the best performing model.  
+1. P2P Fund, LLC provides a historical data set of funded P2P loans and offers a 1 DC bounty for the best performing model.  
 
 2. DecisionCoin encrypts the training data, consisting of the historical data set of funded P2P loans, allowing data scientists to build models that predict the probability of default for each loan. 
 
