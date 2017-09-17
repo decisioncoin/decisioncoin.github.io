@@ -38,9 +38,9 @@ Commercial solutions exist in each category but they suffer from the same proble
 2. Testing the efficacy of a new solution against the status quo takes time, effort and expertise
 3. Implementing a new solution in a production environment is difficult and time-consuming. 
  
-DecisionCoin solves these problems through a consensus blockchain that maintains a record of the best[1][] solution for a variety of problems and a standardized API that makes it easy to run the most effective model in production at all times.   
+DecisionCoin solves these problems through a consensus blockchain that maintains a record of the best* solution for a variety of problems and a standardized API that makes it easy to run the most effective model in production at all times.   
 
-[1]: Note that the best solution is often the most accurate, but may also include other considerations like cost, absence of false positives/negates, etc.  
+*The best solution is often the most accurate, but may also include other considerations like cost, absence of false positives/negatives, etc.  
 
 ### Supply of Data scientists
 Crowdsourcing predictive modeling is a proven model. There are a wide variety of strategies that can be applied to a given data set and it's very hard to know in advance what will work best. 
@@ -52,9 +52,9 @@ There is a large community of data scientists interested in solving hard problem
 Numerai reports that 20,000+ data scientists that have participated in their crowd-sourced stock market predictions. 
 
 ### Distributed Data sets
-Decisioning algorithms need training data to succeed. Data creates 
+Decisioning algorithms need training data to succeed. Large, clean data sets create network effects that ensure that the DecisionCoin network delivers the most highest performing algorithms and attracts the most talented data scientists.  
 
-We will dedicate a material potion of DecisionCoin to rewarding data set owners for contributing their data. 
+We will allocate DC to compensate data owners for contributing to an open data set. Data that creates the greatest performance increase will receive a larger protion of the available compensation.
 
 
 ### Links
@@ -62,4 +62,3 @@ We will dedicate a material potion of DecisionCoin to rewarding data set owners 
 * [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
 * [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
 * [Twitter list (ht John Ryu)](twitter_list)
-

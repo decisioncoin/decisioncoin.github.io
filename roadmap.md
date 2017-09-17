@@ -1,18 +1,12 @@
-# Technical development
+# Technical roadmap
 
-## Token creations
-- Create token (ERC20?)
-- Any other viable alternatives?
-
-## Define & develop smart contract(s)
-- Need to figure out best practices here
-
-## Data sets
-
-For each domain:
-- Data dictionary
-- Training data
-- Test data
+## Token development
+- Create token (ERC20)
+-- Determine supply
+-- Any other viable alternatives?
+-Define & develop smart contract(s)
+--Distribute bounty to winning modeler
+--Distribution execution fees to  
 
 ## Models
 - What do standardized models look like? (R, Python, et al). 
@@ -28,16 +22,32 @@ For each domain:
 
 * Outside AWS distribution: create a docker image that can execute model
 
+## Solutions we will solve
+For each problem domain, we will create a page that looks like the following: 
+https://www.kaggle.com/c/state-farm-distracted-driver-detection
+
+DC owners can stake their coins in support of problems that need either an improved solution or data and receive a portion of the proceeds.   
+
+For each domain:
+- Problem description
+- Bounty (in DC)
+- Data dictionary
+- Training data
+- Test data
+- Execution price
+- API documentation (if solution is available) 
+
 ## Problems
-- Overfitting
 - Cheaters. This can be:
 1. A maliciously targeted algorithm that demonstrates superior performance when it shouldn't. This will self-correct, but we need to have solutions here.  
 2. Bad data. This could be accidental or malicious, but we need algorithms to detect potential cheaters and a mechanism for punishing them. 
 --- Can we reverse a transaction through consensus? Is this a bad idea? 
-
+- Overfitting
 
 ## Encryption of data sets
-- [Homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) allows Fully homomorphic encryption expands data size dramatically
+- [Homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) allows data to be shared and manipulated without giving away the secret
+-- Need proof of concept that will execute a model and return data 
+-- Fully homomorphic encryption expands data size dramatically
 -- Partial homomorphic encryption is simpler and can 
 - Numerai is using encryption using two neural nets. (One net finds features and the other attempts to decrypt the signal.)
 - Unclear that this is "truly" protected but worth investigating
