@@ -63,4 +63,3 @@ We will compensate data owners for contributing to our open data sets, reserving
 * [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
 * [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
 * [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
-* [Twitter list (ht John Ryu)](twitter_list)
