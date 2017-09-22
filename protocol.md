@@ -1,6 +1,12 @@
 # Token
 
-DC is an ERC token that allows
+DecisionCoin is an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md) token that ensures the DecisionCoin network operates as intended.
+
+Each solution is its own [decentralized autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) facilitated through smart contracts that define the business relationships.  
+
+A solution consists of the following elements:
+1 - Target metric
+
 
 ## Economic Incentives
 Creating a healthy decisioning marketplace is critical. The marketplace needs to ensure two things:
@@ -16,22 +22,35 @@ Ideas:
 * Alternatively, we'll provide free tokens for training data in promising domains
 
 
+## Advantages for businesses
+* Better models from the community of data scientists 
+* Continuous improvement
+* One-time implementation. There is no friction between model build, evaluation, and deployment
+* Decentralized market that ensures pricing is fair and reflects business value.
+* Encryption to ensure commercial data stays safe
+
+## Advantages for data scientists:
+* Get paid for building performant models 
+* Access to a licensing channel that rewards model performance over sales skills
+* Continue to get paid as long as their models are used
+
+
+
 ## How we make money
 
 * Filecoin: Filecoin is a protocol, it doesn't "make money" any more than the Bitcoin protocol can make money. Filecoin is being built by Protocol Labs (a business), who makes money by holding Filecoin amongst other endeavors.
-* How do VCs intend to exit? 
-* Ethereum:
+* Ethereum: gas usage
 - Need to understand market norms?
 * Take a fee (10%?) oon each transaction
 
 
-### Key Questions:
-* How to allocate coins
-* How to stage fundraising (Pre-sale, public) How much of total to make available?
-* What is required to successfully raise at each stage? 
-* Need to determine: Use Coin or a Security Coin?
-(Coin required to purchase service o (coin provides dividends to owner)?
-* Security coin provide a pool of ownership for each 
+### Coin Allocation:
+* 40% - Bounties and 
+* 30% - Team
+* 10% - Marketing
+* 10% - Admininstration & ICO process
+* 5% - Contractors 
+* 5% - Contingency 
 
 
 ### Examples:
@@ -57,6 +76,11 @@ $50 million pre-sale @ 30% discount, $75 million public coin offering
 - Cloud computing / Computation markets (Golem, iExec, Truebit)
 - Prediction: Augur / Gnosis
 - Oracle systems: Oraclize, Augur
+
+### Links
+* [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
+* [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
+* [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
 
 ### Links
 * [Law](https://www.coinbase.com/legal/securities-law-framework.pdf)

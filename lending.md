@@ -1,4 +1,10 @@
-# An Example: Peer-to-Peer Lending
+# Peer-to-Peer Lending
+
+## Overview
+Peer-to-Peer ("P2P") lending companies allow investors to purchase unsecured loans that are made to individuals. They provide data on individual borrowers and allow investors to select which loans they want to fund. If most of the individuals re-pay the loan, P2P provides an attractive return to investors. P2P Fund, LLC is a fund established to invest in P2P loans and they will use the DecisionCoin network to determine which loans to fund. 
+
+
+## Data set
 
 Peer-to-Peer ("P2P") lending companies allow investors to purchase unsecured loans that are made to individuals. They provide data on individual borrowers and allow investors to select which loans they want to fund. If most of the individuals re-pay the loan, P2P provides an attractive return to investors. P2P Fund, LLC is a fund established to invest in P2P loans and they will use the DecisionCoin network to determine which loans to fund. 
 
