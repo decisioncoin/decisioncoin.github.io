@@ -15,6 +15,6 @@ We track and reward performance using our token DecisionCoin.
 ### Learn More
 ### [Data Scientists](/data-scientists/)
 ### [Data Owners](/data-providers/)
-### [Businesses & Capital](/sponsor/)
+### [Businesses & Capital](/sponsors/)
 
 
