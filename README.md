@@ -12,9 +12,9 @@ We track and reward performance using our token DecisionCoin.
 - [Crop yield prediction](/decisions/crop-yield/)
 - [Flood prediction](/decisions/flooding/) 
 
-## Learn More
-### [I'm a Data Scientist](/data-scientists/)
-### [I'm a Data Owners](/data-providers/)
+### Learn More
+### [Data Scientists](/data-scientists/)
+### [Data Owners](/data-providers/)
 ### [Businesses & Capital](/sponsor/)
 
 
