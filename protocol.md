@@ -29,13 +29,6 @@ Ideas:
 * Decentralized market that ensures pricing is fair and reflects business value.
 * Encryption to ensure commercial data stays safe
 
-## Advantages for data scientists:
-* Get paid for building performant models 
-* Access to a licensing channel that rewards model performance over sales skills
-* Continue to get paid as long as their models are used
-
-
-
 ## How we make money
 
 * Filecoin: Filecoin is a protocol, it doesn't "make money" any more than the Bitcoin protocol can make money. Filecoin is being built by Protocol Labs (a business), who makes money by holding Filecoin amongst other endeavors.
