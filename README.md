@@ -7,7 +7,7 @@ We track and reward performance using our token DecisionCoin.
 * Data owners earn DecisionCoin by providing unique data that improves performance. 
 * Businesses buy DecisionCoin to build & execute their models
 
-### DECIDE Applications: 
+### Decisions supported by DECIDE: 
 - [Consumer lending](/decisions/lending/)
 - [Crop yield prediction](/decisions/crop-yield/)
 - [Flood prediction](/decisions/flooding/)
