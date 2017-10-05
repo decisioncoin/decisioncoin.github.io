@@ -27,9 +27,9 @@ DECIDE solves these problems through a consensus blockchain that maintains a rec
 
 ## Decisions
 
-The main entity within the DECIDE network are Decisions, which are [DAOs](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) that are established to solve a specific decisioning problem.  
+Decisions are the key entities within the DECIDE network. Decisions are [DAOs](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) that are established to solve a specific decisioning problem.  
 
-Anyone can create a new Decision by staking DC and ownership of the solution is shared among those who provided the initial stakes. That ownership stake has the opportunity to   
+Anyone can create a new Decision by staking DC and ownership of the economic interest is shared among those who provided the initial stakes. Owners determine how data will be sourced, the criteria for identifying the best algorithm, bounties payable to data owners and data scientists, and how the algorithm may be used.  
 
 Each Decision is governed by smart contracts that describe how it works:
 1. Target metric (including minimum thresholds, deadline). 
@@ -38,6 +38,8 @@ Each Decision is governed by smart contracts that describe how it works:
 4. Economic split among owner, model builder, data providers and execution cost.  
 5. Exclusivity (i.e. Whether the solution is available as a public API or is reserved for the owners.)  
 6. Endpoint for model evaluation
+
+Owners of the DAO can also elect to change these at any time.
 
 ### Ownership privileges
 The owner(s) of the Decision have the ability to execute the model. 
@@ -48,12 +50,16 @@ Decisions must have a minimum bounty committed (currently 1000 DC) before they g
 ### Ownership resale
 Ownership stakes in a Decision can be re-sold at any time. Each owner has the ability to put a price on their ownership. This allows for a healthy dynamic between risk capital that supports the creation of new algorithms and businesses that can best exploit the profit potential of those algorithms.   
 
+## Mining
+
+Miners can earn DC by executing models. Each  
+
 
 ## Token
 
 DecisionCoin is an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md) token that enables the DECIDE network to solve problems.
 
-
+There are real advantages to an independent blockchain. We will evaluate whether to migrate to a standalone blockchain in the next six months. [Need to layout criteria for this switch] 
 
 ### Coin Allocation:
 * 40% - Bounties and Data Incentives
