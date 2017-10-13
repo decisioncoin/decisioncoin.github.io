@@ -103,21 +103,8 @@ Like Models, we track the effectiveness of each Enrichment towards improving mod
 * **Score improvement** The increase in score when the data enrichment is used. 
 * **Minimum price** The amount of DC required to use the data enrichment on a single Record.  
 
-
-
 ## Token
 
 DecisionCoin will initially be an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md) token that enables the DECIDE network to solve problems.
 
 That said, there are significant advantages to an dedicated blockchain. Ethereum's cost for data and processing may prove prohibitive and a mining scheme that supports the token directly is much more attractive. We will evaluate whether to migrate to a standalone blockchain in the next six months. [Need to layout criteria for this switch] 
-
-### Links
-* [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
-* [Coinlist imperative of blockchain token compliance](https://medium.com/@rzurrer/coinlist-the-saft-the-imperitive-of-blockchain-token-compliance-f5ce9cdbc238)
-* [Pre-pub Bitcoin text book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf)
-* [Law](https://www.coinbase.com/legal/securities-law-framework.pdf)
-* [Safe ICO practices] (https://medium.com/@wmougayar/safe-ico-practices-sip-c77a0c28f5d6)
-* [Argon Group pitch](./research/Argon 2017-07 ICO Considerations.pdf/)
-* [Pantera ICO fund deck](./research/Pantera ICO Fund Presentation.pdf)
-* [Coinbase State of Blockchain](./research/State-of-Blockchain-Q2-2017-.pdf)
-* [What I look for in Cryptocoins](https://jordancooper.blog/2017/05/23/what-i-look-for-in-cryptocoins/)
