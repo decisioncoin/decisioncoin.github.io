@@ -47,7 +47,7 @@ Models are the proposed solutions to Decisions. They expose an API that, given o
 ### Requests
 Requests are the individual decisions that businesses want to make using Models. Businesses submit Requests for evaluation by the best Model within their pricing parameters. 
 
-* **Decision** 
+* **Decision**  The address of the Decision.
 * **Maximum price** The maximum amount of DC that the business is willing to pay for having each record evaluated by the model. 
 * **Number of records** The number of records the business wishes to evaluate. 
 * **Expiration time** How long the Request will remain open. 
@@ -60,13 +60,42 @@ During each epoch, miners will do the following:
 2. Identify all matching Requests and Models, execute the models, and transfer DC appropriately. 
 3. Test any new Models that have been submitted for existing Decisions. (More detail on this process to come, including staking & bounty mechanisms)
 
-## Data Enrichment
-Data enrichments can make Models more accurate by enhancing the training data. This can be one of two things: 
+## Model Ownership, Staking and Bounties 
 
-1. Append additional data to data records. e.g. A credit score or custom risk model may be appended to a borrower's record.   
-2. Provide additional labeled training data that can be used to improve performance. 
+Owning an accurate Model in high demand can be lucrative. The DECIDE network allows owners to monetize their Model ownership in a variety of ways.  
+
+### Rental
+
+The simplest form of Model ownership allows a data scientist to create a Model in response to a Decision and "rent" that model to businesses who pay using DC. DECIDE provides an efficient marketplace to connect data scientists with customers for free. The data scientist sets their minimum execution price for the model and the DECIDE network routes matching orders.    
+
+### Bounties & Staking Mechanics
+
+While some data scientists will want to rent their Models over time, others may be interested in selling their code for an immediate payment. Businesses and speculators can create Bounties to purchase Models that meet their qualifications. Bounties are smart contracts that agree to purchase models that achieve desired metrics.    
+
+Anyone can create a Bounty by staking DC and specifying what they want to buy:
+
+* **Decision**  The address of the Decision the Model will solve.
+* **Bounty** The DC payable as a bounty for a qualified model.  
+* **Minimum Score** The minimum score that needs to be achieved by the model. If none, DECIDE will select the highest scoring Model submitted.  
+* **First Payable** When the bounty is first eligible for payment. If none, it's payable to the first model that qualifies.  
+* **Expiration time** How long the Bounty will remain open. 
+* **Payment address** The address providing payment for the model execution. This will be a proxy that holds the bounty and will distribute payment after the code is transferred and verified. 
+* **Stakable** Whether other owners can contribute to the bounty and share in Model ownership.   
+* **Exclusivity** Whether the solution is available as a public API or is reserved for the owners.
+
+The DECIDE network will determine when parameters are met and provide a Proxy for that transfer. Initially, verification process will be handled via a manual escrow process but will transition to a decentralized process. 
+
+Anyone can create a bounty by staking DC. Ownership of the resulting Model is shared among those who contributed. Owners decide how the algorithm may be used subsequently and how it should be priced.  Decisions must have a minimum bounty committed (currently 1000 DC) or a minimum volume of requests (currently 100 DC) before going live. This will ensure the business problem is high-value enough to attract the attention of talented data scientists.
+
+Ownership interests in a Model can be sold, in whole or in part. This allows risk capital to sponsor new algorithms and resell their interests to the business(es) that can best exploit the profit potential of those algorithms. Businesses that want to use a model for proprietary purposes can purchase the algorithm outright. 
+
+## Data Enrichment
+Data Enrichments make Models more accurate by expanding the training data set. This can be one of two things: 
+
+1. Provide additional labeled training data that can be used to improve performance.
+2. Append new data to data records. e.g. A credit score, demographics, or past purchase history may be appended to a borrower's record. 
  
-Like Models, we track the effectiveness of each Enrichment towards improving model accuracy. Enrichments contact 
+Like Models, we track the effectiveness of each Enrichment towards improving model accuracy, and compensate the data provider for the value created. Data Enrichment sets consist of the following components:  
 
 * **Decision** The address of the Decision this enriches. 
 * **Model** The address of the Model this enriches. Enrichment's impact is model dependent.
@@ -74,23 +103,7 @@ Like Models, we track the effectiveness of each Enrichment towards improving mod
 * **Score improvement** The increase in score when the data enrichment is used. 
 * **Minimum price** The amount of DC required to use the data enrichment on a single Record.  
 
-## Model Ownership, Staking and Bounties 
 
-Ownership of an accurate Model in a Decision with high demand can be highly lucrative. The DecisionCoin token is designed to encourage a wide range of activity regarding trading and monetizing this interest. The same mechanisms also apply to data enrichments. 
-
-### Ownership resale
-Ownership stakes in a Model or Data Enrichment can be re-sold at any time. Each owner has the ability to put a price on their ownership and sell a stake. This allows for a healthy dynamic between risk capital that supports the creation of new algorithms and businesses that can best exploit the profit potential of those algorithms.   
-   
-### Bounties & Staking
-While some data scientists will want to benefit from an ownership stake over time, others may be interested in selling their code for an immediate bounty payment. Speculators can create bounties that will pay qualified Models for their code. The DECIDE network will determine when parameters are met and provide a Proxy for that transfer. 
-
-Anyone can create a bounty by staking DC and ownership of the resulting Model is shared among those who provided the stakes. Owners determine how data will be sourced, the criteria for identifying the best algorithm, bounties payable to data owners and data scientists, and how the algorithm may be used.  Decisions must have a minimum bounty committed (currently 1000 DC) or a minimum volume of requests (currently 100 DC) before they go live. This will ensure the Decision is high-value enough to attract the attention of talented data scientists.
-
-Open question
-1. Economic split among owner, model builder, data providers and execution cost.  
-2. Exclusivity (i.e. Whether the solution is available as a public API or is reserved for the owners.)  
-
-Owners of the Model can also elect to change these at any time.
 
 ## Token
 
