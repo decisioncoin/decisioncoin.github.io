@@ -16,58 +16,87 @@ Algorithmic decisioning (or the more buzzy "machine learning") is huge and will 
 * Realtors want to predict home sale prices
 * Marketers want to estimate the likelihood a user will click on an ad
 
-Commercial solutions exist in each category but they suffer from the same problem: it's difficult to determine which solution provides the best* solution. This is true for a couple of reasons:
+Commercial solutions exist in each category but they suffer from the same problem: it's difficult to determine which solution provides the best solution. This is true for a couple of reasons:
+
 1. Bad software sometimes has great salespeople, and vice-versa.
-2. Testing the efficacy of a new solution against the status quo takes time, effort and expertise
+2. Testing a new solution against the status quo takes time, effort and expertise
 3. Implementing a new solution in a production environment is difficult and time-consuming. 
  
-DECIDE solves these problems through a consensus blockchain that maintains a record of the best* solution for a variety of problems and a standardized API that makes it easy to run the most effective model in production at all times.   
+DECIDE solves these problems through a blockchain that maintains a consensus record of the best model for a given problem and a standardized API that makes it easy to run the most effective model in production at all times.   
 
-*The best solution is often the most accurate, but may also include other considerations like cost, absence of false positives/negatives, etc.  
+## Key Entities: Decisions, Models, & Requests
 
-## Decisions
+There are three key entities within the DECIDE network: Decisions, Models, & Requests.  
 
-Decisions are the key entities within the DECIDE network. Decisions are [DAOs](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) that are established to solve a specific decisioning problem.  
+### Decisions
+Decisions describe a problem to solve with a predictive model. They consist of data and the problem to be solved, and are looking for algorithmic solutions: 
 
-Anyone can create a new Decision by staking DC and ownership of the economic interest is shared among those who provided the initial stakes. Owners determine how data will be sourced, the criteria for identifying the best algorithm, bounties payable to data owners and data scientists, and how the algorithm may be used.  
+* **Predicted variable** The target variable that the Solution predicts. e.g. Estimated default probability for a borrower
+* **Labeled data set** The historical data set to be used for training and evaluation. e.g. The historical record of all borrowers with whether they defaulted or not. This is divided into a test data set that is publicly available and a training data set that is used by miners to evaluate the accuracy of the model. 
+* **Evaluation criteria** The measure that should be used to determine model accuracy. [Logarithmic loss](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html) is a commonly used metric for classifiers but we should support a cost matrix that will allow the Decision to specifically weight error from false positives, false negatives, et al.  
 
-Each Decision is governed by smart contracts that describe how it works:
-1. Target metric (including minimum thresholds, deadline). 
-2. Bounty payable for data 
-3. Bounty payable to best algorithm
-4. Economic split among owner, model builder, data providers and execution cost.  
-5. Exclusivity (i.e. Whether the solution is available as a public API or is reserved for the owners.)  
-6. Endpoint for model evaluation
+### Models 
+Models are the proposed solutions to Decisions. They expose an API that, given one or more labeled items of data, will respond with their estimate of the predicted variable. 
+ 
+* **Decision** The address of the Decision this solves. 
+* **Endpoint** The endpoint where the model lives. (This is hashed so it can only be evaluated by a qualified miner.) 
+* **Score** The score when the Model was evaluated against the testing data set.   
+* **Minimum price** The minimum amount of DC required to execute the model on a single Request.  
+* **Payment address** The address that should receive payment. 
 
-Owners of the DAO can also elect to change these at any time.
+### Requests
+Requests are the individual decisions that businesses want to make using Models. Businesses submit Requests for evaluation by the best Model within their pricing parameters. 
 
-### Ownership privileges
-The owner(s) of the Decision have the ability to execute the model. 
+* **Decision** 
+* **Maximum price** The maximum amount of DC that the business is willing to pay for having each record evaluated by the model. 
+* **Number of records** The number of records the business wishes to evaluate. 
+* **Expiration time** How long the Request will remain open. 
+* **Payment address** The address that provides payment for the model execution. This will be a proxy that holds Max Price * # of records and will distribute payment after model execution. 
 
-### Minimum bounties
-Decisions must have a minimum bounty committed (currently 1000 DC) before they go live. This will ensure the contest is high-value enough to attract the attention of talented data scientists.   
+## Putting it all together: Matchmaking & Model Evaluation
+During each epoch, miners will do the following: 
+
+1. Identify any expired Requests and eliminate them. 
+2. Identify all matching Requests and Models, execute the models, and transfer DC appropriately. 
+3. Test any new Models that have been submitted for existing Decisions. (More detail on this process to come, including staking & bounty mechanisms)
+
+## Data Enrichment
+Data enrichments can make Models more accurate by enhancing the training data. This can be one of two things: 
+
+1. Append additional data to data records. e.g. A credit score or custom risk model may be appended to a borrower's record.   
+2. Provide additional labeled training data that can be used to improve performance. 
+ 
+Like Models, we track the effectiveness of each Enrichment towards improving model accuracy. Enrichments contact 
+
+* **Decision** The address of the Decision this enriches. 
+* **Model** The address of the Model this enriches. Enrichment's impact is model dependent.
+* **Endpoint** The endpoint where the data enrichment lives (for appends)
+* **Score improvement** The increase in score when the data enrichment is used. 
+* **Minimum price** The amount of DC required to use the data enrichment on a single Record.  
+
+## Model Ownership, Staking and Bounties 
+
+Ownership of an accurate Model in a Decision with high demand can be highly lucrative. The DecisionCoin token is designed to encourage a wide range of activity regarding trading and monetizing this interest. The same mechanisms also apply to data enrichments. 
 
 ### Ownership resale
-Ownership stakes in a Decision can be re-sold at any time. Each owner has the ability to put a price on their ownership. This allows for a healthy dynamic between risk capital that supports the creation of new algorithms and businesses that can best exploit the profit potential of those algorithms.   
+Ownership stakes in a Model or Data Enrichment can be re-sold at any time. Each owner has the ability to put a price on their ownership and sell a stake. This allows for a healthy dynamic between risk capital that supports the creation of new algorithms and businesses that can best exploit the profit potential of those algorithms.   
+   
+### Bounties & Staking
+While some data scientists will want to benefit from an ownership stake over time, others may be interested in selling their code for an immediate bounty payment. Speculators can create bounties that will pay qualified Models for their code. The DECIDE network will determine when parameters are met and provide a Proxy for that transfer. 
 
-## Mining
+Anyone can create a bounty by staking DC and ownership of the resulting Model is shared among those who provided the stakes. Owners determine how data will be sourced, the criteria for identifying the best algorithm, bounties payable to data owners and data scientists, and how the algorithm may be used.  Decisions must have a minimum bounty committed (currently 1000 DC) or a minimum volume of requests (currently 100 DC) before they go live. This will ensure the Decision is high-value enough to attract the attention of talented data scientists.
 
-Miners can earn DC by executing models. Each  
+Open question
+1. Economic split among owner, model builder, data providers and execution cost.  
+2. Exclusivity (i.e. Whether the solution is available as a public API or is reserved for the owners.)  
 
+Owners of the Model can also elect to change these at any time.
 
 ## Token
 
-DecisionCoin is an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md) token that enables the DECIDE network to solve problems.
+DecisionCoin will initially be an [ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md) token that enables the DECIDE network to solve problems.
 
-There are real advantages to an independent blockchain. We will evaluate whether to migrate to a standalone blockchain in the next six months. [Need to layout criteria for this switch] 
-
-### Coin Allocation:
-* 40% - Bounties and Data Incentives
-* 30% - Team
-* 10% - Marketing
-* 10% - Administration & ICO process
-* 5% - Contractors 
-* 5% - Contingency 
+That said, there are significant advantages to an dedicated blockchain. Ethereum's cost for data and processing may prove prohibitive and a mining scheme that supports the token directly is much more attractive. We will evaluate whether to migrate to a standalone blockchain in the next six months. [Need to layout criteria for this switch] 
 
 ### Links
 * [Crowd-sourced Ethereum reading](https://github.com/Scanate/EthList/blob/master/README.md)
